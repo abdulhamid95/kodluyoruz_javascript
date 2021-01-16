@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register Form</title>
+</head>
+<body>
+    <div class="container">
+        <figure>
+        <img src="https://img.icons8.com/ios/452/edit-user-male.png" alt="register">
+    </figure>
+        <form id="myForm">
+            <input type="text" id="first" placeholder="First Name">
+            <span class="error" id="error_first"></span>
+            <input type="text" id="last" placeholder="Last Name">
+            <span class="error" id="error_last"></span>
+            <input type="text" id="userName" placeholder="@username" value="" disabled>
+            <input type="email" id="email" placeholder="E-mail">
+            <span class="error" id="error_email"></span>
+            <input type="password" id="password" placeholder="Password">
+            <span class="error" id="error_password"></span>
+            <input type="password" id="confirm" placeholder="Confirm Password">
+            <span class="error" id="error_confirm"></span>
+            <input type="submit" value="Register">
+            
+        </form>
+
+        <script src="js.js"></script>
+    </div>
+</body>
+</html>

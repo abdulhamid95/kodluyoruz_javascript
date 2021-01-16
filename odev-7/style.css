@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 50px auto;
+    padding: 25px;
+    border: 1px solid #000;
+    width: 350px;
+}
+
+img{
+    width: 50%;
+}
+figure{
+    margin: auto;
+    text-align: center;
+    
+    margin: 20px auto;
+}
+
+input{
+    display: block;
+    margin: auto;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid rgb(124, 124, 124);
+}
+
+.error{
+    font-size: 13px;
+    color: red;
+    margin-left: 15px;
+}
+
