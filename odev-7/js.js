@@ -60,9 +60,15 @@ document.getElementById("myForm").onsubmit = function () {
         nameError = "Please enter your confirm password";
         document.getElementById("error_confirm").innerHTML = nameError;
         submit = false;
-    } else if (confirmPassword !== password) {
+    } else if (confirmPassword.value !== password.value) {
         nameError = "Palse check your confirm password for ";
         document.getElementById("error_confirm").innerHTML = nameError;
+        submit = false;
+    }
+
+    else {
+        document.getElementById("succes").innerHTML = "Welocme @" + name + last;
+  
         submit = false;
     }
 

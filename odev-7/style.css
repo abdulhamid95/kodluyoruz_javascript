@@ -30,9 +30,31 @@ input{
     border: 1px solid rgb(124, 124, 124);
 }
 
+
+.button{
+
+    background-color: white;
+    color: black;
+    border: 2px solid #555;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.button:hover {
+    background-color: #555; 
+    color: white;
+}
+
 .error{
     font-size: 13px;
     color: red;
     margin-left: 15px;
+}
+
+.succes{
+    font-size: 20px;
+    color: rgb(61, 248, 61);
+    margin-top: 20px;
 }
 
