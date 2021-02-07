@@ -1,0 +1,35 @@
+body{
+    background: #ff4b1f;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1fddff, #ff4b1f);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #1fddff, #ff4b1f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+   text-align: center; 
+}
+
+table{
+    margin: 70px auto;
+    border: 1px solid #000;
+}
+
+table td{
+    padding: 20px;
+    border: 1px solid #000;
+}
+
+thead td{
+    font-weight: 900;
+}
+
+.button{
+    background-color: #1fddff75;
+    padding: 15px 25px;
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    margin-bottom: 50px;
+    outline: none;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #ff4c1f5b;
+}
