@@ -11,5 +11,5 @@ This Project homework for kodluyoruz bootcamp.
 
 ----------------------------------------------------------------------------------------------------------------------
 
-* You can open project by gitHub page from (here)[https://abdulhamid95.github.io/kodluyoruz_javascript/odev-9].
-* You can open project by codepen from (here)[https://codepen.io/abdulhamidha/pen/mdOPvoL]
+* You can open project by gitHub page from [here](https://abdulhamid95.github.io/kodluyoruz_javascript/odev-9).
+* You can open project by codepen from [here](https://codepen.io/abdulhamidha/pen/mdOPvoL).
